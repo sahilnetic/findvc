@@ -1,5 +1,6 @@
 import Nav from "./Components/Nav"
 import Footer from "./Components/Footer"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -11,9 +12,12 @@ export default function Home() {
     <p className="sm:mx-28 mx-10 mt-6 text-white ">Free Api of VCs and Startup accelerators</p>
     <p className="sm:mx-28 mx-10 sm:mt-4 text-white">created by <span className="font-black">@sahilnetic</span></p>
     <p className="sm:mx-28 mx-10   text-white pb-32">powered by <span className="font-black">@vercel</span></p>
-    <button className="text-center text-black bg-white content-center sm:text-xl sm:font-medium font-black px-5 py-2"><p className="animate-pulse">
+   <Link href="https://github.com/sahilnetic/findvc/fork">
+     <button className="text-center text-black bg-white content-center sm:text-xl sm:font-medium font-black px-5 py-2"><p className="animate-pulse">
     Fork It On Github
     </p></button>
+    
+    </Link>
     </div>
     <hr />
 
