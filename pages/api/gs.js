@@ -5,6 +5,7 @@ export default function handler(req, res) {
                 country: 'usa',
                 loan: "url",
                 startupvisa : "",
+                funding : ""
             },
   
            
@@ -12,6 +13,7 @@ export default function handler(req, res) {
                 country: 'uk',
                 scheme: "url",
                 startupvisa : "",
+                funding : ""
 
             },
 
@@ -19,6 +21,7 @@ export default function handler(req, res) {
                 country: 'india',
                 scheme: "url",
                 startupvisa : "",
+                funding : ""
 
             },
 
@@ -26,6 +29,7 @@ export default function handler(req, res) {
                 country: 'germany',
                 scheme: "url",
                 startupvisa : "",
+                funding : ""
 
             },
 
@@ -33,6 +37,7 @@ export default function handler(req, res) {
                 country: 'canada',
                 scheme: "url",
                 startupvisa : "",
+                funding : ""
 
             },
   
